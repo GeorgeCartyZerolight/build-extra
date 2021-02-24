@@ -1,5 +1,5 @@
-# Git for Windows v2.30.1 Release Notes
-Latest update: February 9th 2021
+# Git for Windows v2.30.1 ZeroLight Release Notes
+Latest update: February 24th 2021
 
 ## Introduction
 
@@ -47,6 +47,8 @@ This package contains software from a number of other projects including Bash, z
 * Comes with [PCRE2 v10.36](https://pcre.org/news.txt).
 * Comes with [tig v2.5.2](https://github.com/jonas/tig/releases/tag/tig-2.5.2).
 * Comes with [OpenSSL v1.1.1j](https://www.openssl.org/news/openssl-1.1.1-notes.html).
+* Fixes the 4 GB file size limit from stock Git for Windows.
+* Uses _dup2() instead of dup2() command to avoid hangs.
 
 ## Changes since Git for Windows v2.30.0(2) (January 14th 2021)
 
