@@ -1,5 +1,5 @@
-# Git for Windows v2.30.2 Release Notes
-Latest update: March 9th 2021
+# Git for Windows v2.30.2 ZeroLight Release Notes
+Latest update: March 10th 2021
 
 ## Introduction
 
@@ -40,11 +40,12 @@ Git for Windows also contains Embedded CAcert Root Certificates. For more inform
 
 This package contains software from a number of other projects including Bash, zlib, curl, tcl/tk, perl, MSYS2 and a number of libraries and utilities from the GNU project, licensed under the GNU General Public License. Likewise, it contains Perl which is dual licensed under the GNU General Public License and the Artistic License.
 
-## Changes since Git for Windows v2.30.2 (March 9th 2021)
+## Changes since Git for Windows v2.30.2 (March 10th 2021)
 
 ### New Features
 
 * Comes with [tig v2.5.3](https://github.com/jonas/tig/releases/tag/tig-2.5.3).
+* Fixes the 4 GB file size limit from stock Git for Windows.
 
 ## Changes since Git for Windows v2.30.1 (February 9th 2021)
 
